@@ -3,8 +3,10 @@ module.exports = {
     elements: {
         // Home Page
         homePage: 'div[class="navbar-header"]',
-        seeAll: '.sc-dNLxif iUxiiF sc-gqjmRU fdocQD',
+        seeAllTools: 'div[data-reactid="84"]', 
         objectSlider: 'div[class="slider sc-btzYZH lgYiAd sc-bwzfXH loXcNn sc-bdVaJa iHZvIS"]',
+       item: 'div[data-reactid="92"]',
+       itemName: 'div[class="sc-dNLxif hHahiq sc-gqjmRU koYdEt"]',
         //circle things
         businessEquipment: 'div[data-reactid="629"]',
         electronics: 'div[data-reactid="634"]',
@@ -21,6 +23,8 @@ module.exports = {
         // Search
         searchField: 'input[type="text"]',
         searchBtn: 'button[class="sc-kPVwWT bwXMGY sc-ifAKCX kzsifC"]',
+        browse: 'a[data-reactid="33"]',
+        results: 'div[class="col-md-12 col-sm-12 col-xs-12"]',
         // List Products
         listProduct: 'span[data-reactid="34"]',
         quideMe: '//button[text()="GUIDE ME"]',

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="27">
+
+  <testsuite name="Tests.renterTests"
+    errors="1" failures="0" hostname="" id="" package="Tests" skipped="9"
+    tests="27" time="68.02" timestamp="Mon, 05 Nov 2018 19:32:35 GMT">
+  
+    <testcase name="Items Appear on Home Page" classname="Tests.renterTests" time="12.13" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Click on Item from Home Page" classname="Tests.renterTests" time="5.792" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Click &#34;See All&#34; next to Category" classname="Tests.renterTests" time="4.773" assertions="0">
+    </testcase>
+  
+    <testcase name="Click Category Circle" classname="Tests.renterTests" time="6.004" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Search for Item from Home Page" classname="Tests.renterTests" time="4.509" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Search from Item from Other Pages" classname="Tests.renterTests" time="4.620" assertions="0">
+    </testcase>
+  
+    <testcase name="Search Filters: Category" classname="Tests.renterTests" time="2.981" assertions="0">
+    </testcase>
+  
+    <testcase name="Search Filters: Date" classname="Tests.renterTests" time="2.881" assertions="0">
+    </testcase>
+  
+    <testcase name="Search Filters: Price" classname="Tests.renterTests" time="2.789" assertions="0">
+    </testcase>
+  
+    <testcase name="Search Filters: Sort" classname="Tests.renterTests" time="3.393" assertions="0">
+    </testcase>
+  
+    <testcase name="Search Filters: Map" classname="Tests.renterTests" time="3.265" assertions="0">
+    </testcase>
+  
+    <testcase name="Item Display Details" classname="Tests.renterTests" time="2.395" assertions="0">
+    </testcase>
+  
+    <testcase name="Item View: Map" classname="Tests.renterTests" time="2.820" assertions="0">
+    </testcase>
+  
+    <testcase name="Item View: Favorite and Item" classname="Tests.renterTests" time="2.423" assertions="0">
+    </testcase>
+  
+    <testcase name="Request Item" classname="Tests.renterTests" time="2.473" assertions="0">
+    </testcase>
+  
+    <testcase name="Request Item During Blackout Dates" classname="Tests.renterTests" time="2.334" assertions="0">
+    </testcase>
+  
+    <testcase name="Request Item Confirmation" classname="Tests.renterTests" time="2.429" assertions="0">
+    </testcase>
+  
+    <testcase name="Sign Up with Valid Email" classname="Tests.renterTests" time="0.01000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Tests / Renter Tests / Sign Up with Valid Email]:
+
+  ReferenceError: fillForm is not defined
+    at Object.Sign Up with Valid Email (C:\Users\Arthur\Desktop\QaDevMountain\Yoodlize\Tests\renterTests.js:91:9)
+    at Module.call (C:\Users\Arthur\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Arthur\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Arthur\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Arthur\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Arthur\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\Arthur\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Arthur\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Arthur\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Sign Up with Invalid Email" classname="Tests.renterTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Sign Up with Facebook" classname="Tests.renterTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Sign Up with Gmail" classname="Tests.renterTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Login with Valid Credentials" classname="Tests.renterTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Login with Invalid Credentials" classname="Tests.renterTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Logout" classname="Tests.renterTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="List an Item while Logged Out" classname="Tests.renterTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="List an Item while Logged In: Guide Me" classname="Tests.renterTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="List an Item while Logged In: I Got It" classname="Tests.renterTests">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
