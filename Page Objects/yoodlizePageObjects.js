@@ -24,8 +24,8 @@ module.exports = {
         // List Products
         listProduct: 'span[data-reactid="34"]',
         quideMe: '//button[text()="GUIDE ME"]',
-        iGotIt: '//button[text()="I GOT IT"]',
-        // Listig of an item
+        iGotIt: '//button[text()="I GOT IT!"]',
+        // List an Item
         title: 'input[type="text"]',
         description: 'textarea[class="sc-gHboQg bQZZfx"]',
         fashionPick: '//option[text()="Fashion"]',
@@ -60,8 +60,8 @@ module.exports = {
         reviews: '//div[text()="Reviews"]',
         profile: '//div[text()="Profile"]',
         account: '//div[text()="Account"]',
-        //Edit Profile
-        firsrName: 'input[name="firstName"]',
+        // Edit Profile
+        firstName: 'input[name="firstName"]',
         lastName: 'input[name="lastName"]',
         gender: '//option[text()="Gender"]',
         malePick: '//option[text()="Male"]',
