@@ -1,5 +1,5 @@
 module.exports = {
-    resourcePath: "C:\\Users\\Arthur\\Desktop\\QaDevMountain\\Selenium\\",
+    resourcePath: "/Users/madelinethomas/Documents/DevMtn/testing-resources/",
     seleniumServer: "selenium-server-standalone-3.14.0.jar",
-    chromedriver: "chromedriver.exe"
+    chromedriver: "chromedriver"
  }
