@@ -1,6 +1,6 @@
 var yPage = {}
-var categories = ['@businessEquipment', '@ectronics', '@recreationalVehicles', '@fashion', '@homeAndGarden', '@outdoorGear', '@partyEquipment',
-    '@poperties', '@experiences', '@sportingEquipment', '@tools', '@toysAndGames'
+var categories = ['@businessEquipment', '@electronics', '@recreationalVehicles', '@fashion', '@homeAndGarden', '@outdoorGear', '@partyEquipment',
+    '@properties', '@experiences', '@sportingEquipment', '@tools', '@toysAndGames'
 ]
 
 
