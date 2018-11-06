@@ -35,7 +35,7 @@ module.exports = {
         // Search
         searchField: 'input[type="text"]',
         searchBtn: 'button[class="sc-kPVwWT bwXMGY sc-ifAKCX kzsifC"]',
-        browse: 'a[data-reactid="33"]',
+        browse: 'a[href="/s"]',
         results: 'div[class="col-md-12 col-sm-12 col-xs-12"]',
          // Search Filters
          showMap: 'img[class="sc-qrIAp hAcQer"]',
@@ -65,13 +65,13 @@ module.exports = {
          sort: '//button[text()="Sort"]',
          sortHighLow: '//button[text()="High - Low"]',
          sortLowHigh: '//button[text()="Low - High"]',
-         oneStar: '',
+        /* oneStar: '',
          twoStars: '',
          threeStars: '',
          fourStars: '',
          fiveStars: '',
          firstItem: '',
-        // List Products
+        // List Products */
         listProduct: 'span[data-reactid="34"]',
         quideMe: '//button[text()="GUIDE ME"]',
         iGotIt: '//button[text()="I GOT IT!"]',

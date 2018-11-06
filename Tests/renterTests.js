@@ -1,8 +1,8 @@
 var yPage = {}
-var categories = ['@businessEquipment', '@ectronics', '@recreationalVehicles', '@fashion', '@homeAndGarden', '@outdoorGear', '@partyEquipment',
-    '@poperties', '@experiences', '@sportingEquipment', '@tools', '@toysAndGames'
-]
-
+//var circleCategories = ['@businessEquipment', '@ectronics', '@recreationalVehicles', '@fashion', '@homeAndGarden', '@outdoorGear', '@partyEquipment',
+//   '@poperties', '@experiences', '@sportingEquipment', '@tools', '@toysAndGames'
+//]
+var categories = require('../testAssets/yoodlizeTestData')
 
 module.exports = {
     beforeEach: browser => {
@@ -33,16 +33,16 @@ module.exports = {
     },
     'Click Category Circle': browser => {
         yPage
-            .waitForElementVisible(categories[0], 1000)
-            .click(categories[0])
+            .waitForElementVisible(categories.circleCategories[0], 100000)
+            .click(categories.circleCategories[0])
 
 
     },
     'Search for Item from Home Page': browser => {
         yPage
-            .setValue('@searchField', 'Shovel'+ yPage.api.Keys.ENTER)
+            .setValue('@searchField', 'Shovel' + yPage.api.Keys.ENTER)
             //.click('@searchBtn')
-                        .waitForElementVisible('@results', 50000)
+            .waitForElementVisible('@results', 1000)
 
     },
     'Search from Item from Other Pages': browser => {
@@ -52,6 +52,13 @@ module.exports = {
 
     },
     'Search Filters: Category': browser => {
+        yPage
+            .click('@browse')
+        yPage
+            .click(categories.searchFillterCtegories[5])
+            yPage.useXpath()
+            .waitForElementVisible('@item', 5000)
+
 
     },
     'Search Filters: Date': browser => {

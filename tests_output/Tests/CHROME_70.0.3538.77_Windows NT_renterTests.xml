@@ -4,78 +4,45 @@
             tests="27">
 
   <testsuite name="Tests.renterTests"
-    errors="1" failures="0" hostname="" id="" package="Tests" skipped="9"
-    tests="27" time="68.02" timestamp="Mon, 05 Nov 2018 19:32:35 GMT">
+    errors="1" failures="0" hostname="" id="" package="Tests" skipped="20"
+    tests="27" time="38.68" timestamp="Tue, 06 Nov 2018 22:54:26 GMT">
   
-    <testcase name="Items Appear on Home Page" classname="Tests.renterTests" time="12.13" assertions="1">
+    <testcase name="Items Appear on Home Page" classname="Tests.renterTests" time="11.39" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Click on Item from Home Page" classname="Tests.renterTests" time="5.792" assertions="1">
+    <testcase name="Click on Item from Home Page" classname="Tests.renterTests" time="5.183" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Click &#34;See All&#34; next to Category" classname="Tests.renterTests" time="4.773" assertions="0">
+    <testcase name="Click &#34;See All&#34; next to Category" classname="Tests.renterTests" time="6.903" assertions="0">
     </testcase>
   
-    <testcase name="Click Category Circle" classname="Tests.renterTests" time="6.004" assertions="1">
+    <testcase name="Click Category Circle" classname="Tests.renterTests" time="3.189" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Search for Item from Home Page" classname="Tests.renterTests" time="4.509" assertions="1">
+    <testcase name="Search for Item from Home Page" classname="Tests.renterTests" time="4.185" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Search from Item from Other Pages" classname="Tests.renterTests" time="4.620" assertions="0">
+    <testcase name="Search from Item from Other Pages" classname="Tests.renterTests" time="7.819" assertions="0">
     </testcase>
   
-    <testcase name="Search Filters: Category" classname="Tests.renterTests" time="2.981" assertions="0">
-    </testcase>
-  
-    <testcase name="Search Filters: Date" classname="Tests.renterTests" time="2.881" assertions="0">
-    </testcase>
-  
-    <testcase name="Search Filters: Price" classname="Tests.renterTests" time="2.789" assertions="0">
-    </testcase>
-  
-    <testcase name="Search Filters: Sort" classname="Tests.renterTests" time="3.393" assertions="0">
-    </testcase>
-  
-    <testcase name="Search Filters: Map" classname="Tests.renterTests" time="3.265" assertions="0">
-    </testcase>
-  
-    <testcase name="Item Display Details" classname="Tests.renterTests" time="2.395" assertions="0">
-    </testcase>
-  
-    <testcase name="Item View: Map" classname="Tests.renterTests" time="2.820" assertions="0">
-    </testcase>
-  
-    <testcase name="Item View: Favorite and Item" classname="Tests.renterTests" time="2.423" assertions="0">
-    </testcase>
-  
-    <testcase name="Request Item" classname="Tests.renterTests" time="2.473" assertions="0">
-    </testcase>
-  
-    <testcase name="Request Item During Blackout Dates" classname="Tests.renterTests" time="2.334" assertions="0">
-    </testcase>
-  
-    <testcase name="Request Item Confirmation" classname="Tests.renterTests" time="2.429" assertions="0">
-    </testcase>
-  
-    <testcase name="Sign Up with Valid Email" classname="Tests.renterTests" time="0.01000" assertions="0">
+    <testcase name="Search Filters: Category" classname="Tests.renterTests" time="0.01400" assertions="0">
     </testcase>
   
 
   
     <system-err>
-        Error while running [Tests / Renter Tests / Sign Up with Valid Email]:
+        Error while running [Tests / Renter Tests / Search Filters: Category]:
 
-  ReferenceError: fillForm is not defined
-    at Object.Sign Up with Valid Email (C:\Users\Arthur\Desktop\QaDevMountain\Yoodlize\Tests\renterTests.js:91:9)
+  TypeError: yPage.useXpath is not a function
+    at Object.Search Filters: Category (C:\Users\Arthur\Desktop\QaDevMountain\Yoodlize\Tests\renterTests.js:59:19)
     at Module.call (C:\Users\Arthur\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
     at C:\Users\Arthur\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
     at _fulfilled (C:\Users\Arthur\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
@@ -89,6 +56,61 @@
   
 
   
+    
+    <testcase
+      name="Search Filters: Date" classname="Tests.renterTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Search Filters: Price" classname="Tests.renterTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Search Filters: Sort" classname="Tests.renterTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Search Filters: Map" classname="Tests.renterTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Item Display Details" classname="Tests.renterTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Item View: Map" classname="Tests.renterTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Item View: Favorite and Item" classname="Tests.renterTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Request Item" classname="Tests.renterTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Request Item During Blackout Dates" classname="Tests.renterTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Request Item Confirmation" classname="Tests.renterTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Sign Up with Valid Email" classname="Tests.renterTests">
+      <skipped />
+    </testcase>
     
     <testcase
       name="Sign Up with Invalid Email" classname="Tests.renterTests">
