@@ -187,14 +187,14 @@ module.exports = {
         resendEmailButton: 'button[class="_25o3z _3n_Fi btn btn-default"]',
         // *** can't fill the rest until email verification is working ***
         // Sign Up
-
+        signup: { selector: '//div[text()="Sign up"]', locateStrategy: 'xpath' },
         // Login / Logout
-        login: 'span[data-reactid="50"]',
+        login: { selector: '(//a[@href="#"])[1]', locateStrategy: 'xpath' },
         loginTitle: 'div[class="_2IZbL"]',
         emailInput: 'input[name="email"]',
         passwordInput: 'input[name="password"]',
-        loginButton: 'button[class="_138K6 _1tVae btn btn-lg btn-default btn-block"]',
-        userIcon: 'img[class="_3Fu2o _1kbE5"]',
+        loginButton: { selector: '//button[text()="Login"]', locateStrategy: 'xpath' },
+        userIcon: 'img[class="Avatar-imgBackground-3Fu2o NavigationAfterLogin-userAvatar-1kbE5"]',
 
         // Reviews
 

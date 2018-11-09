@@ -8,6 +8,10 @@ module.exports = {
             email: 'madi+yoodlize@gmail.com',
             password: 'thisismine'
         },
+        {
+            email: 'steve+yoodlize@gmail.com',
+            password: 'password'
+        }
     ],
     listProductMethod1: [
         {

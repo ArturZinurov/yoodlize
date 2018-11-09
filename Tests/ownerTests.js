@@ -15,13 +15,14 @@ module.exports = {
     },
     'List an Item while Not Logged In': () => {
         yPage
-            .waitForElementVisible('@login', 1000)
+            .waitForElementVisible('@login', 10000)
             .click('@listProductLoggedOut')
         yPage
             .waitForElementVisible('@emailInput', 10000)
     },
     'List an Item while Logged In: Guide Me': () => {
         yPage
+            .waitForElementVisible('@login', 5000)
             .click('@login')
         emailLogin(yPage, testData.loginCredentials[0])
         listProductGuideMe(yPage, testData.listProductMethod1[0])
