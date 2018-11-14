@@ -53,7 +53,6 @@ module.exports = {
             .click('@browse')
         yPage
             .click(categories.searchFillterCtegories[5])
-            yPage.useXpath()
             .waitForElementVisible('@item', 5000)
 
 
