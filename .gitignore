@@ -1,5 +1,9 @@
 nightwatch.props.js
 node_modules
 tests_output
+<<<<<<< HEAD
 *.log
 selenium-debug.log
+=======
+*.log
+>>>>>>> f8b979e2730e763300e031fceb12551c332432ed
