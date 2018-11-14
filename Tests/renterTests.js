@@ -1,8 +1,5 @@
 var yPage = {}
-var categories = ['@businessEquipment', '@electronics', '@recreationalVehicles', '@fashion', '@homeAndGarden', '@outdoorGear', '@partyEquipment',
-    '@properties', '@experiences', '@sportingEquipment', '@tools', '@toysAndGames'
-]
-
+var categories = require('../testAssets/yoodlizeTestData')
 
 module.exports = {
     beforeEach: browser => {
