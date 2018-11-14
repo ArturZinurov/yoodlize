@@ -1,7 +1,4 @@
 var yPage = {}
-//var circleCategories = ['@businessEquipment', '@ectronics', '@recreationalVehicles', '@fashion', '@homeAndGarden', '@outdoorGear', '@partyEquipment',
-//   '@poperties', '@experiences', '@sportingEquipment', '@tools', '@toysAndGames'
-//]
 var categories = require('../testAssets/yoodlizeTestData')
 
 module.exports = {
