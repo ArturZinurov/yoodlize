@@ -1,8 +1,10 @@
 module.exports = {
-    categories: [
-        '@businessEquipment', '@ectronics', '@recreationalVehicles', '@fashion', '@homeAndGarden', '@outdoorGear', '@partyEquipment',
+
+    circleCategories: ['@businessEquipment', '@ectronics', '@recreationalVehicles', '@fashion', '@homeAndGarden', '@outdoorGear', '@partyEquipment',
         '@poperties', '@experiences', '@sportingEquipment', '@tools', '@toysAndGames'
     ],
+    searchFillterCtegories: ['@ catBusinessEquipment', '@catExperiences', '@catHomeGarden', '@catPartyEquipment', '@catRVs', '@catTools', '@atElectronics', '@catFashion', '@catOutdoorGear', '@catProperties', '@catSportingEquipment', '@catToysGames'],
+
     loginCredentials: [
         {
             email: 'madi+yoodlize@gmail.com',

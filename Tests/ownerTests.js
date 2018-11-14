@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var yPage = {}
 var testData = require('../testAssets/yoodlizeTestData')
 var emailLogin = require('../testAssets/emailLogin')
@@ -6,8 +5,6 @@ var listProductGuideMe = require('../testAssets/listProductGuideMe')
 var listProductIGotIt = require('../testAssets/listProductIGotIt')
 var clickByText = require('../testAssets/clickByText')
 
-=======
->>>>>>> f8b979e2730e763300e031fceb12551c332432ed
 module.exports = {
     beforeEach: browser => {
         yPage = browser.page.yoodlizePageObject()
@@ -16,7 +13,6 @@ module.exports = {
     after: browser => {
         browser.end()
     },
-<<<<<<< HEAD
     'List an Item while Not Logged In': () => {
         yPage
             .waitForElementVisible('@login', 10000)
@@ -72,6 +68,4 @@ module.exports = {
     // 'Organize / Delete Messages': browser => {
 
     // },
-=======
->>>>>>> f8b979e2730e763300e031fceb12551c332432ed
 }
